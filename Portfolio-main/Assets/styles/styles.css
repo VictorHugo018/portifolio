@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box; 
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+
+.cabecalho{
+    padding: 20px;
+    background-color: #b4b9c0
+    padding-left: 165px;
+}
+
+
+
+.cabecalho__menu__link{
+    font-weight: 600;
+    font-size: 31px;
+    text-decoration: none;
+    padding-right: 36px;
+   
+
+}
+
+
+
+.apresentacao {
+    padding: 14% 19%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    background: #e6e8ea
+}
+
+.apresentacao__conteudo {
+    width: 97%;
+    display: flex;
+    flex-direction: row;   
+    gap: 63px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 73px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 79px;
+}
+
+.apresentacao__sobre_mim__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    MARGIN-LEFT: 115px;
+}
+
+.apresentacao__sobre_mim__texto {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 3% 45% 0% 0%;
+}
+
+.apresentacao__sobre_mim__texto__contato {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--cor-terciaria);
+    padding: 3% 45% 0% 0%;
+}
+
+
+.apresentacao__curriculo__topico {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.apresentacao__curriculo__informacoes__pessoais {
+    font-size: 1.2rem;
+    line-height: 33px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.apresentacao__curriculo__topico__conteudo {
+    font-size: 1.2rem;
+    line-height: 33px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.apresentacao__imagem {
+    width: 141%;
+    border-radius: 11800px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 0.4%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+.apresentacao__curriculo{
+    margin-bottom: 181px;
+}
+
+.apresentacao__links__subtitulo{
+    padding: 10px;
+}
+
+.cabecalho__menu{
+    padding-left: 565px;
+}
+
+.titulo-destaque{
+    bottom: 3%;
+}
+
+.trabalho{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #b4b9c0;
+    margin: 38px 52px;
+    border-radius: 44px;
+    padding-right: 112px;
+    PADDING-LEFT: 112px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.btncal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nome_projetos{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 37vh;
+
+}
+
+
+.apresentacao__links{
+    text-align: center;
+}
+
+.btncor{
+    margin-right: 15px;
+    display: flex;
+    margin-left: -516px;
+}
+
+.btncor {
+    padding: 12px 24px; 
+    font-size: 18px; 
+    background-color: #9ba1ab  ; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+
+.btncor:hover {
+    background-color: #555; 
+    transform: scale(1.1); 
+}
+
+.btncor:active {
+    background-color: #777; 
+    transform: scale(1.05); 
+}
+
+.btncor:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Assets/styles/styles.css">
+    <script src="assets/js/actions.js" defer></script>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+
+            <button class="btncor" id="btnmudarCor">Mudar Cor</button>
+
+            <a class="cabecalho__menu__link" href="home.html">Home</a>
+            <a class="cabecalho__menu__link" href="sobremim.html">Sobre mim</a>
+        </nav>
+    </header>
+
+    <div id="escuro" >
+        <main class="apresentacao">
+            <section class="d-flex apresentacao__conteudo">
+                <div>
+                    <h1 class="apresentacao__conteudo__titulo">Seja bem vindo(a) ao meu Portfolio!
+                        <strong class="titulo-destaque"> Aqui você poderá encontrar meus projetos pessoais e minhas redes sociais!</strong>
+                    </h1>
+                    <p class="apresentacao__conteudo__texto">Olá! Sou Victor Hugo, sou aluno do SENAI, em constante aprendizado nas 
+                        áreas de HTML, CSS, JavaScript, Figma, DBiver, e outras tecnologias, buscando sempre expandir meus conhecimentos
+                        e me aprimorar como desenvolvedor.</p>
+                    
+                </div>
+                <div>
+                    <img class="apresentacao__imagem" src="Assets/img/IMG_6323.jpg" alt="foto Victor Hugo">
+                </div>
+            </section>
+
+
+        <div>
+            <h3 class="nome_projetos" >Projetos</h3>
+        </div>
+        
+        <!-- Calculadora -->
+            <section class="calculadora trabalho">
+                <p>Calculadora:</p>
+                <div>
+                    <label for="num1">Informe um número:</label>
+                    <input type="text" id="num1">
+                </div>
+                <div>
+                    <label for="num2">Informe um número:</label>
+                    <input type="text" id="num2">
+                </div>
+                <button class="btncal" id="btncalcular">Calcular</button>
+                <div>
+                    <p>Resultado:</p>
+                    <p id="resultado"></p>
+                </div>
+            </section>
+        </main>
+    </div>
+   
+    <div class="apresentacao__links">
+       
+      
+       
+       
+       
+       
+        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+        
+        <a class="apresentacao__links__navegacao" href="">
+           
+           
+            <img src="Assets/img/instagram.png" alt="imagem instagram">
+        
+        
+       
+           Instagram
+        </a>
+       
+        <a class="apresentacao__links__navegacao" href="">
+            <img src="Assets/img/github.png" alt="imagem github">
+            GitHub
+        </a>
+   
+    </div>
+<br><br>
+    <footer class="rodape">
+        <p>Desenvolvido por Victor Hugo</p>
+    </footer>
+</body>
+</html>
